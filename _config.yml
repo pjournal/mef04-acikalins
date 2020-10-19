@@ -1,4 +1,4 @@
-theme: jekyll-theme-yat
+theme: jekyll-theme-minimal
 title: PJournal of Selcuk
 description: This is the description of the _config.yml file
 date: "`e format(Sys.time(), '%d %B %Y'`"
