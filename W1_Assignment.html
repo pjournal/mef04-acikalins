@@ -1540,12 +1540,35 @@ div.tocify {
 </div>
 <div id="reviews" class="section level1">
 <h1>Reviews</h1>
+<div id="video-review" class="section level2">
+<h2>Video Review</h2>
 <div id="user-2020-reactor-reactive-notebooks-for-r-h.-susmann-lightening" class="section level3">
 <h3>useR! 2020: Reactor: reactive notebooks for R (H. Susmann), lightening</h3>
-<p>In this video Herb Susmann is presenting his work named as “Reactor” that is explained as a new package that creates a new method for using R in a different user experience. He states his new form shows resemblance with previous examples such as Jupyter Notebook or Shiny or Observable. But it is falling apart from them by the reactiveness feature he reports. Briefly he defines reactor as a reactor notebook interface for R. In other words he describes “Reactor” as a notebook application that enables using R code but if you change any variable in a cell, that causes an automatic update of other cells referenced with the changed variable directly or indirectly. It looks like an excel sheet/cell update mechanism. However in a form of R notebook. It also gives an opportunity use R code with packages plots, HTML, LayTex and markdown all in one in a reactive interface. There is a short demo in the video. The link for the video is provided below.</p>
+<p>In this video Herb Susmann is presenting his work named as “Reactor” that is explained as a new package that creates a new method for using R with a different user experience. He states that his work shows resemblance with previous examples such as Jupyter Notebook or Shiny or Observable however it is falling apart from them by the “reactiveness” feature. Briefly he defines reactor as a notebook interface for R. In other words he describes “Reactor” as a notebook application that enables using R code but if you change any variable in a cell, that causes an automatic update for other cells referenced with the changed variable directly or indirectly. It looks like an excel sheet/cell update mechanism. But in a form of R notebook. It also gives an opportunity use R code with packages plots, HTML, LayTex and markdown all in one in a reactive interface. There is a short demo in the video. The link for the video is provided below.</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=hytdjtM6Chg">Youtube Video - useR! 2020: Reactor: reactive notebooks for R (H. Susmann), lightening</a></li>
 </ul>
+</div>
+</div>
+<div id="article-reviews" class="section level2">
+<h2>Article Reviews</h2>
+<div id="hack-how-to-install-and-load-packages-dynamically" class="section level3">
+<h3>Hack: How to Install and Load Packages Dynamically</h3>
+<p>The author of this article George Pipis mentions about a practical solution that could help to load packages easily at times when you try to run an R script that you downloaded from another source. Not everyone use the same packages always for their works related with R script. Different people could use several different packages other than some common ones such as gglot2, dplyr etc. He suggests a short code chunk below to be added in the beginning of the whole code with the replacement of the packages with whichever you use.</p>
+<pre><code> mypackages&lt;-c(&quot;readxl&quot;, &quot;dplyr&quot;, &quot;multcomp&quot;)
+ for (p in mypackages){
+  if(!require(p, character.only = TRUE)){
+    install.packages(p)
+    library(p, character.only = TRUE)
+  }
+  }
+  
+Source: The work of George Pipis - https://www.r-bloggers.com/2020/10/hack-how-to-install-and-load-packages-dynamically/</code></pre>
+<p>He tells that this code chunk looks for the related packages to find out if it is already installed on the machine running the code at first. If it detects that it is already installed, then abandon the rest of this code chunk and starts to execute the rest of R code. If it can not detect relevant packages it automatically installs the packages itself. Sound really useful. If you felt more curious about you may find the original post in the below link.</p>
+<ul>
+<li><a href="https://www.r-bloggers.com/2020/10/hack-how-to-install-and-load-packages-dynamically/">Hack: How to Install and Load Packages Dynamically</a></li>
+</ul>
+</div>
 </div>
 </div>
 
