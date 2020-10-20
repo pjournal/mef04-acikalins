@@ -1,6 +1,6 @@
 
 ## Assignments
-- <Week:1 Assignment Please click on the> [link](W1_Assignment.md)
+- <Week:1 Assignment Please click on the> [link](W1_Assignment.html)
 
 ## Welcome to GitHub Pages
 
