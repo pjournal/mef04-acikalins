@@ -36,7 +36,20 @@ Source: The work of George Pipis - https://www.r-bloggers.com/2020/10/hack-how-t
 
 He tells that this code chunk looks for the related packages to find out if it is already installed on the machine running the code at first. If it detects that it is already installed, then abandon the rest of this code chunk and starts to execute the rest of R code. If it can not detect relevant packages it automatically installs the packages itself. Sound really useful. If you felt more curious about you may find the original post in the below link.
 
-- [Hack: How to Install and Load Packages Dynamically](https://www.r-bloggers.com/2020/10/hack-how-to-install-and-load-packages-dynamically/)
+- [Hack: How to Install and Load Packages Dynamically by George Pipis](https://www.r-bloggers.com/2020/10/hack-how-to-install-and-load-packages-dynamically/)
 
 
+### “You Are Here”: Understanding How GPS Works
 
+In this article the author narrates the basics of the Global Positioning System with the support of R script. The author mentions about how gps works and maths behind the system. He/she visualizes the basic principle with R by creating a 2D case of gps having the earth with 2 satellites. Shared an R code that solves intersection point of two circles of the two satellites' and matching it with the earth's radius. According to the article, the rationale behind taking circles is that when you receive a gps signal you also get the time data of the signal is processed. This gives the chance to calculate the distance of the point where the signal is made since you know the difference of both current time and satellites' time which the signal is created at. You also know the speed of the signal. Taking all of this you may come up with the distance of the satellite to the subject as the radius of a circle gives you all possible locations where it is produced. He/she defines a custom function to R named trillaterate using trillateration method to determine the exact unique position of the subject in the 2 axis universe. If you are interested about how it works you may check out below link.
+
+- [“You Are Here”: Understanding How GPS Works by the blogger nicknamed Learning Machine ](https://www.r-bloggers.com/2020/10/you-are-here-understanding-how-gps-works/)
+
+
+### How to Impute Missing Values in R
+
+This article is suggesting an easy way to replace null values in the dataset through an R code that automatically detects the structure of the data whether it is a numerical or a categorical and replaces the null values with the mean or the median of the dataset according to the vector's structure type taking it as a decisive element. This makes it easy to get the data ready for the task we work on which could be setting a model. In fact in some situations it would not be a useful approach. Because it depends on the type of the work you carry out whether you need the imputation step or not. However if you needed this could work out as an easy solution as well. If you want to take a glance at the code chunk the link is below.
+
+- [How to Impute Missing Values in R by George Pipis](https://www.r-bloggers.com/2020/04/how-to-impute-missing-values-in-r/)
+
+Thanks for reading my reviews.
