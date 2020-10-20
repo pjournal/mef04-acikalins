@@ -1,13 +1,3 @@
----
-title: "W1 Assignment - BDA 503"
-author: "Selçuk Açıkalın"
-date: "19 10 2020"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
