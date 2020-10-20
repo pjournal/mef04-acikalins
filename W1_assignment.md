@@ -1,17 +1,3 @@
----
-title: "W1 Assignment - BDA 503"
-author: "Selçuk Açıkalın"
-date: "19 10 2020"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 # Introduction
 ### About Me
 I am currently working at Odeabank as Customer Analytics and Campaign Management Assistant Manager for nearly 1,5 years. I worked at several positions such as marketing, product/lifecycle management, product development roles until started to work in Analytics & Campaign Management. Have 8 years experience in total with the current one. I graduated from Boğaziçi University Economics Department. My short term target is to improve the skills  i will obtain through out the program by applying on my current work. My long term goal is to go deeper on both data science and computer science by having a work that makes it possible.
