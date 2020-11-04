@@ -5,6 +5,6 @@
 
 ## Exercises
 - [Exercise 1](W1_Exercises.html)
-- [In Class Exercise 2020-11-04](W3_InClassExercise.html)
+- [In Class Bonus Exercise 2020-11-04](W3_InClassExercise.html)
 
 ![Github Logo](https://github.githubassets.com/images/modules/open_graph/github-mark.png)
