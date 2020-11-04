@@ -118,8 +118,8 @@ ggplot(df_epias_daily_merge_sub_1, aes(x=Date_day, y=value_day, color=operator))
 It is easier to tell which day is mostly ended with energy surplus or energy deficit by looking at daily averages or medians. Looking at the graphs:
 
   - On 3rd, 5th, 17th and 19th of Sep'20 you may see obvious extreme SMP values caused deficit or surplus.
-  - Median of MCP values could lead the interpretation of general daily demand forecast is centered between 300 and 325
-  - Between 20th and 27th of Sep'20 a slight increase of electricity is seemed to be happened 
+  - Median of MCP values could lead the interpretation of general daily demand forecast is centered between 300 and 325.
+  - Between 20th and 27th of Sep'20 a slight increase in the demand for electricity is seemed to be happened with a negative imbalance.
 
 
 ### Daily Min and Max Values of MCP and SMP
@@ -133,7 +133,5 @@ ggplot(df_epias_daily_merge_sub_2, aes(x=Date_day, y=value_day, color=operator))
 When we look at the min and max graphs:
 
   - On 3rd, 7th and 17th of Sep'20 instant peaks in electricty demands are observed since SMP realization is way too high. 
-  - Contrarily on 7th and 19th of Sep'20 the lowest two hourly SMP realization is seen over the series.
+  - Contrarily on 7th and 19th of Sep'20 the two lowest hourly SMP realization is seen over the series.
   - These extreme values could lead interpretations such as on these hours extraneous events may occured that maximizes or minimizes the energy consumption or causes problems on the energy production side.
-
-
