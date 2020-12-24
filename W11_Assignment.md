@@ -289,3 +289,7 @@ prediction_2 <- predict(diamonds_model_2, newdata = diamonds_test_2)
 head(prediction_2, 50)
 
 ```
+
+References
+- [Pruning Tree](https://www.edureka.co/blog/implementation-of-decision-tree/)
+- [Categorical to binary](https://www.kaggle.com/pauldu/diamond-price-prediction-in-r)
